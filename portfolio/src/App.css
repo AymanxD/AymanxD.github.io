@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Megrim');
+
+.App {
+  text-align: center;
+}
+.landingPage{
+  margin-bottom: 5%;
+}
+
+.Navigation{
+  display: flex;
+  justify-content: center;
+}
+.titleGrid{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-basis: 950px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.anchor{
+  margin-right: 40px;
+  display:flex;
+  font-family: Megrim;
+  font-size: 1.8vw;
+}
+
+.link{
+  text-decoration: none;
+  color: #A2AAB4;
+}
+
+.link:hover{
+  color:#81B6FE;
+  transition: 0.5s;
+}
+
+.logo{
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: auto;
+}
+
+hr{
+  display: block;
+  max-width: 960px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-color:   #e6e6ff;
+}
+
+.iconGrid{
+  max-width: 1000px;
+  margin:0 auto;
+  display:grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+}
+
+.icon{
+  max-width: 100px;
+  padding:20px;
+}
+
+footer{
+  color: whitesmoke;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.socialMediaLinks{
+  max-width: 300px;
+  margin:0 auto;
+  font-size: 3vw;
+  display: grid;
+  grid-template: 1fr/ 1fr 1fr 1fr;
+}
+
+.contactLink{
+  color:whitesmoke;
+}
+
+.contactLink:hover{
+  transition: 0.5s;
+  color: #707070;
+}
+
+/* stop */
+
+.reactProjects{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+}
+
+.responsive{
+  margin:10px;
+  width: 75vh;
+  height:38vh;
+}
+
+.otherProjects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.overlay{
+  position: absolute;
+  width: 75vh;
+  height:38vh;
+  transform: translate(0px, 10px);
+  background-color: rgba(0,0,0,1);
+  transition: .5s ease;
+  opacity: 0;
+  font-family: Dosis
+}
+
+.overlay-panel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 38vh;
+  color: white;
+  font-size: 2vw;
+}
+
+.overlay-description{
+  font-size: 1.5vw;
+}
+
+.image-container:hover .overlay{
+  opacity: 0.9;
+}
+
+.project-panel-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  text-decoration: none;
+  border: 1px solid white;
+  padding:10px;
+  margin: 2vh;
+  color:white;
+  font-size: 1vw;
+}
+
+.website:hover{
+  background-color: rgba(0,16,55,1);
+  transition: .5s ease;
+}
+
+.github:hover{
+  background-color: rgba(55,0,0,1);
+  transition: .5s ease;
+}

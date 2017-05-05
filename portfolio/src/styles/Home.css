@@ -13,10 +13,12 @@
 }
 
 .name{
-  max-width: 500px;
+  max-width: 400px;
   margin-right: auto;
+  margin-left: 5%;
+  margin-bottom: 0;
   font-family: megrim;
-  font-size: 2.5vw;
+  font-size: 5.0vh;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -24,9 +26,10 @@
 .description{
   max-width: 500px;
   margin-right: auto;
+  margin-left: 5%;
   text-align: left;
   line-height: 1.2em;
-  font-size: 2.0vw;
+  font-size: 3.0vh;
   color: #444445;
   font-weight: lighter;
 }
@@ -37,7 +40,20 @@ br{
 }
 
 .Ayman{
-  margin:40px;
-  max-width:450px;
-  max-height: 550px;
+  margin-top:40px;
+  margin-left:40px;
+  max-height: 50vh;
+}
+
+@media (max-width:500px){
+  .Ayman{
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .name{
+    font-size: 4.0vh;
+  }
+  .description{
+    font-size: 2.5vh;
+  }
 }

@@ -47,7 +47,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 38vh;
   color: white;
   font-size: 2vw;
 }
@@ -83,3 +82,14 @@
   background-color: rgba(55,0,0,1);
   transition: .5s ease;
 }
+
+@media (max-width:500px){
+  .responsive{
+    width: 40vh;
+    height: 20vh;
+  }
+  .overlay{
+    width: 40vh;
+    height: 20vh;
+  }
+};

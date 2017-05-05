@@ -11,7 +11,7 @@ export default class Info extends Component {
             Ayman Mohatarem
           </p>
           <p className="description">
-              A React and Node.js web developer based in Toronto.
+              I am a React and Node.js web developer based in Toronto.
             <br/>
               Everything made here has been created to build upon my tenacity for solving difficult problems.
             <br/>

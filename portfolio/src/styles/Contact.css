@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+footer{
+  color: whitesmoke;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.title{
+  font-family: Oxygen;
+  font-size: 1.3vw;
+}
+
+.socialMediaLinks{
+  max-width: 300px;
+  margin:0 auto;
+  font-size: 3vw;
+  display: grid;
+  grid-template: 1fr/ 1fr 1fr 1fr;
+}
+
+.contactLink{
+  color:whitesmoke;
+}
+
+.contactLink:hover{
+  transition: 0.5s;
+  color: #3A3A3A;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import Landing from './landingPage.jsx';
+import './styles/App.css';
+import Landing from './LandingPage.jsx';
 import Contact from './contact.jsx';
 
 class App extends Component {

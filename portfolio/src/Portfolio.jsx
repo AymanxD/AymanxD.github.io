@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
+import './styles/Portfolio.css';
 
-const projectInfo = require("./PortfolioProjects.json");
+const projectInfo = require("./data/PortfolioProjects.json");
 
 const reactProjects = projectInfo.filter((project) => {
   return project.technologies.indexOf('react') !== -1;
@@ -15,7 +15,7 @@ export default class Portfolio extends Component{
   render(){
     return(
       <div>
-        <p>React Projects:</p>
+        <p className="description-title">React Projects:</p>
         <div className='reactProjects'>
           {reactProjects.map((project, id) => {
             return (
@@ -36,7 +36,7 @@ export default class Portfolio extends Component{
           })}
         </div>
         <hr/>
-        <p>Other Projects:</p>
+        <p className="description-title">Other Projects:</p>
           <div className='otherProjects'>
             {otherProjects.map((project, id) => {
               return (

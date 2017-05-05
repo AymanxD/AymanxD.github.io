@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Megrim');
+
+.Home{
+  max-width:800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.Home-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.name{
+  max-width: 500px;
+  margin-right: auto;
+  font-family: megrim;
+  font-size: 2.5vw;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.description{
+  max-width: 500px;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.2em;
+  font-size: 2.0vw;
+  color: #444445;
+  font-weight: lighter;
+}
+
+br{
+  margin:2.5em 0;
+  line-height:2em;
+}
+
+.Ayman{
+  margin:40px;
+  max-width:450px;
+  max-height: 550px;
+}

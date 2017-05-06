@@ -1,0 +1,61 @@
+[{
+   "devicon":"devicons devicons-react",
+   "label":"React"
+},
+{
+   "devicon":"devicons devicons-nodejs_small",
+   "label":"Node.js"
+},
+{
+   "devicon":"devicons devicons-mongodb",
+   "label":"MongoDB"
+},
+{
+   "devicon":"devicons devicons-nodejs_small",
+   "label":"Express"
+},
+{
+   "devicon":"devicons devicons-angular",
+   "label":"Angular"
+},
+{
+   "devicon":"devicons devicons-html5",
+   "label":"HTML5"
+},
+{
+   "devicon":"devicons devicons-css3",
+   "label":"CSS3"
+},
+{
+   "devicon":"devicons devicons-javascript",
+   "label":"JavaScript"
+},
+{
+  "devicon":"devicons devicons-atom",
+  "label":"Atom"
+},
+{
+   "devicon":"devicons devicons-bootstrap",
+   "label":"Bootstrap"
+},
+{
+   "devicon":"devicons devicons-git",
+   "label":"Git"
+},
+{
+   "devicon":"devicons devicons-github_badge",
+   "label":"GitHub"
+},
+{
+   "devicon":"devicons devicons-jquery",
+   "label":"jQuery"
+},
+{
+   "devicon":"devicons devicons-npm",
+   "label":"npm"
+},
+{
+   "devicon":"devicons devicons-python",
+   "label":"Python"
+}
+]

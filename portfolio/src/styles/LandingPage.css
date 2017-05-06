@@ -1,0 +1,48 @@
+.landingPage{
+  margin-bottom: 5%;
+}
+
+.Navigation{
+  display: flex;
+  justify-content: center;
+}
+.titleGrid{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-basis: 950px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.anchor{
+  margin-right: 30px;
+  display:flex;
+  font-family: Megrim;
+  font-size: 2.5vh;
+}
+
+.link{
+  color: #444445;
+  font-weight: bold;
+}
+
+.link:hover{
+  color:#81B6FE;
+  transition: 0.5s;
+}
+
+.logo{
+  max-width: 10vw;
+  max-height: 15vh;
+  margin-left: auto;
+}
+
+hr{
+  display: block;
+  max-width: 960px;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-color:   #e6e6ff;
+}

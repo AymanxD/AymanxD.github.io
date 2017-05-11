@@ -10,19 +10,18 @@ footer{
 }
 .title{
   font-family: Oxygen;
-  font-size: 1.3vw;
+  font-size: 16px;
 }
 
 .socialMediaLinks{
   max-width: 300px;
-  margin:0 auto;
-  font-size: 3vw;
-  display: grid;
-  grid-template: 1fr/ 1fr 1fr 1fr;
+  margin: 0 auto;
+  font-size: 22px;
 }
 
 .contactLink{
   color:whitesmoke;
+  margin: 7px;
 }
 
 .contactLink:hover{

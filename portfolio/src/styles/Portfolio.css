@@ -37,9 +37,10 @@
   width: 75vh;
   height:38vh;
   transform: translate(0px, 10px);
+  -ms-transform: translate(-585px, 10px);
   background-color: rgba(0,0,0,1);
   transition: .5s ease;
-  opacity: 0;
+  opacity: 1;
   font-family: Oxygen;
 }
 

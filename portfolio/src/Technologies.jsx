@@ -6,11 +6,11 @@ export default class Technologies extends Component {
 
   render(){
     return(
-      <div>
-      <p className="description-title">
-        These are some of the technologies I've used:
-      </p>
-      <Icons/>
+      <div className="technologies">
+        <p className="description-title">
+          These are some of the technologies I've used:
+        </p>
+        <Icons/>
       </div>
     )
   }

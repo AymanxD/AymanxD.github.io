@@ -8,7 +8,7 @@
 }
 
 .reactProjects{
-  display:flex;
+  display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -26,7 +26,7 @@
 }
 
 .otherProjects{
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -37,13 +37,14 @@
   width: 75vh;
   height:38vh;
   -webkit-transform: translate(0px, 10px);
-  -ms-transform:translate(-585px, 10px);
+  -ms-transform:translate(0px, 10px);
   background-color: rgba(0,0,0,1);
   transition: .5s ease;
   opacity: 0;
   font-family: Oxygen;
+  z-index: 2;
 }
- 
+
 .overlay-panel{
   display: flex;
   flex-direction: column;
@@ -61,7 +62,7 @@
 }
 
 .project-panel-buttons{
-  display: flex;
+  display: -webkit-flex;
   justify-content: center;
   align-items: center;
 }
@@ -92,6 +93,108 @@
   .overlay{
     width: 40vh;
     height: 20vh;
-    -ms-transform:translate(-318px, 10px);
+  }
+};
+
+.image-container{
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.responsive{
+  margin:10px;
+  width: 75vh;
+  height:38vh;
+}
+
+.otherProjects{
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.overlay{
+  position: absolute;
+  width: 75vh;
+  height:38vh;
+  -webkit-transform: translate(0px, 10px);
+  -ms-transform:translate(0px, 10px);
+  background-color: rgba(0,0,0,1);
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  font-family: Oxygen;
+  z-index: 2;
+}
+
+.overlay-panel{
+  display: -webkit-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 2vw;
+}
+
+.overlay-description{
+  font-size: 1.5vw;
+}
+
+.image-container:hover .overlay{
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.project-panel-buttons{
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.button{
+  text-decoration: none;
+  border: 1px solid white;
+  padding:10px;
+  margin: 2vh;
+  color:white;
+  font-size: 1vw;
+}
+
+.website:hover{
+  background-color: rgba(0,16,55,1);
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.github:hover{
+  background-color: rgba(55,0,0,1);
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+@media (max-width:500px){
+  .responsive{
+    width: 40vh;
+    height: 20vh;
+  }
+  .overlay{
+    width: 40vh;
+    height: 20vh;
   }
 };

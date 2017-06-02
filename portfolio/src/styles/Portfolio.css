@@ -57,7 +57,7 @@
   }
 
   .overlay-description{
-    font-size: calc(1.25vw + 0.5vh + 1vmin);
+    font-size: calc(1.25vw + 0.5vh + 0.1vmin);
   }
 
   .image-container:hover .overlay{
@@ -75,7 +75,7 @@
     padding:10px;
     margin: 2vh;
     color:white;
-    font-size: calc(1.25vw + 0.5vh + 1vmin);
+    font-size: calc(1vw + 0.5vh + 1vmin);
   }
 
   .website:hover{
@@ -149,11 +149,10 @@
         -ms-flex-pack: center;
             justify-content: center;
     color: white;
-    font-size: calc(1.25vw + 0.5vh + 1vmin);
   }
 
   .overlay-description{
-    font-size: calc(1.25vw + 0.5vh + 1vmin);
+    font-size: calc(1.25vw + 0.5vh + 0.1vmin);
   }
 
   .image-container:hover .overlay{
@@ -176,7 +175,7 @@
     padding:10px;
     margin: 2vh;
     color:white;
-    font-size: calc(1.25vw + 0.5vh + 1vmin);
+    font-size: calc(1vw + 0.5vh + 1vmin);
   }
 
   .website:hover{

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Redirect, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Redirect, Switch, browserHistory} from 'react-router-dom';
 import './styles/LandingPage.css';
 import Home from './Home.jsx';
 import Portfolio from './Portfolio.jsx';
@@ -8,7 +8,7 @@ import Technologies from './Technologies.jsx';
 export default class Landing extends Component {
   render(){
     return (
-      <Router>
+      <Router history={browserHistory}>
         <div className="landingPage">
           <div className="Navigation">
             <ul className="titleGrid">
